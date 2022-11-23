@@ -80,6 +80,13 @@ def read_emails():
                 print(part.as_string())
 
         print("===========================")
+	
+	contin = simpledialog.askstring("Continue? [y/n]")
+	if contin == 'y':
+		pass
+	else:
+		break
+	
         
     
 

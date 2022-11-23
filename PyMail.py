@@ -86,10 +86,8 @@ def read_emails():
 		pass
 	else:
 		break
-	
-        
-    
-
+		
+		
 #Create Window
 screen = Tk()
 window_title = screen.title('PyMail')
